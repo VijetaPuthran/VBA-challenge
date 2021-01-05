@@ -10,6 +10,10 @@ Sub StockAnalysis()
     Cells(3, 15).Value = "Greatest % Decrease"
     Cells(4, 15).Value = "Greatest Total Volume"
     
+    Columns("L").ColumnWidth = 20
+    Columns("O").ColumnWidth = 20
+    Columns("Q").ColumnWidth = 20
+    
     Dim ticker As String
     Dim tickerIndex As Integer
     Dim openValue As Double
